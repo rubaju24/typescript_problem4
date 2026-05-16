@@ -116,19 +116,6 @@ Output: true
 Input: [10, 0, 0, 0, 0]
 Output: true
 
-## Visual Explanation
-
-Array: [2, 3, 1, 1, 4]
-Index: 0 1 2 3 4
-
-Step-by-step reachable range:
-Start: can reach index 2
-[x, _, _, _, _] x=index 0
-[✓, ✓, ✓, _, _] can reach indices 0,1,2
-
-At index 1: can reach index 4
-[✓, ✓, ✓, ✓, ✓] can reach all indices ✓
-
 ### For failing case [3,2,1,0,4]:
 
 Start: reach up to index 3
